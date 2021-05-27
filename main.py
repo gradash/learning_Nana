@@ -7,5 +7,14 @@ def days_to_seconds(number_of_days, custom_message):
     print(custom_message)
 
 
+def scope_check(number_of_days):
+    my_var = "vartiable defined inside function"
+    print(name_of_unit)
+    print(number_of_days)
+    print(my_var)
+
+
 days_to_seconds(10, "All Good!")
 days_to_seconds(30, "It' Works!")
+
+scope_check(22)
